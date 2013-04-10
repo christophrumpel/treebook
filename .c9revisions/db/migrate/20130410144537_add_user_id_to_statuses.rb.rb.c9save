@@ -1,0 +1,5 @@
+{"ts":1365605148211,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class AddUserIdToStatuses.rb < ActiveRecord::Migration\n  def change\n  end\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":78}]],"length":78}
+{"contributors":[],"silentsave":false,"ts":1365605254104,"patch":[[{"diffs":[[0," change\n"],[1,"    add_column :statuses, :user_id, :integer\n    add_index :statuses, :user_id\n    remove_column: statuses, :name\n"],[0,"  end\nen"]],"start1":60,"start2":60,"length1":16,"length2":130}]],"length":192,"saved":false}
+{"ts":1365605324687,"patch":[[{"diffs":[[0,"uses"],[-1,".rb"],[0," < A"]],"start1":21,"start2":21,"length1":11,"length2":8}]],"length":189,"saved":false}
+{"ts":1365605357419,"patch":[[{"diffs":[[0,"e_column"],[-1,":"],[0," statuse"]],"start1":153,"start2":153,"length1":17,"length2":16}]],"length":188,"saved":false}
+{"ts":1365605425644,"patch":[[{"diffs":[[0,"_column "],[1,":"],[0,"statuses"]],"start1":154,"start2":154,"length1":16,"length2":17}]],"length":189,"saved":false}
