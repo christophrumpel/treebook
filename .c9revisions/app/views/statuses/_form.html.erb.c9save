@@ -6,3 +6,6 @@
 {"ts":1366141055404,"patch":[[{"diffs":[[0,"class: \""],[1,"form-"],[0,"horizont"]],"start1":36,"start2":36,"length1":16,"length2":21}]],"length":484,"saved":false}
 {"ts":1366141075423,"patch":[[{"diffs":[[0,"  <%= f."],[1,"button :"],[0,"submit %"]],"start1":447,"start2":447,"length1":16,"length2":24}]],"length":492,"saved":false}
 {"ts":1366141207014,"patch":[[{"diffs":[[0," end %>\n"],[1,"    <%= f.input :user_id %>"],[0,"\n    <%="]],"start1":379,"start2":379,"length1":16,"length2":43}]],"length":519,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1366211600585,"patch":[[{"diffs":[[0,":user_id"],[1,", collection: User.all"],[0," %>\n    "]],"start1":403,"start2":403,"length1":16,"length2":38}]],"length":541,"saved":false}
+{"ts":1366211693255,"patch":[[{"diffs":[[0,"User.all"],[1,", label_method: full_name"],[0," %>\n    "]],"start1":425,"start2":425,"length1":16,"length2":41}]],"length":566,"saved":false}
+{"ts":1366211700023,"patch":[[{"diffs":[[0,"method: "],[1,":"],[0,"full_nam"]],"start1":441,"start2":441,"length1":16,"length2":17}]],"length":567,"saved":false}
