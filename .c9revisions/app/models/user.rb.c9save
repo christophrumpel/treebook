@@ -2,3 +2,7 @@
 {"contributors":[],"silentsave":false,"ts":1365604597248,"patch":[[{"diffs":[[0,"ember_me"],[1,", :first_name, :last_name, :profile_name"],[0,"\n  # att"]],"start1":420,"start2":420,"length1":16,"length2":56}]],"length":507,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1366142014357,"patch":[[{"diffs":[[0,", :body\n"],[1,"  \n  def full_name\n    first_name + \" \" + last_name\n  end\n"],[0,"end\n"]],"start1":495,"start2":495,"length1":12,"length2":70}]],"length":565,"saved":false}
 {"ts":1366142064022,"patch":[[{"diffs":[[0,"body\n  \n"],[1,"  has_many :statuses\n  \n"],[0,"  def fu"]],"start1":498,"start2":498,"length1":16,"length2":40}]],"length":589,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1366739059068,"patch":[[{"diffs":[[0,"body\n  \n"],[1,"  validates :first_name, presence: true\n  \n"],[0,"  has_ma"]],"start1":498,"start2":498,"length1":16,"length2":59}]],"length":632,"saved":false}
+{"ts":1366739293684,"patch":[[{"diffs":[[0,"true\n  \n"],[1,"  validates :last_name, presence: true\n  \n"],[0,"  has_ma"]],"start1":541,"start2":541,"length1":16,"length2":58}]],"length":674,"saved":false}
+{"ts":1366739389121,"patch":[[{"diffs":[[0,"true\n  \n"],[1,"  validates :profile_name, presence: true\n  \n"],[0,"  has_ma"]],"start1":583,"start2":583,"length1":16,"length2":61}]],"length":719,"saved":false}
+{"ts":1366740584593,"patch":[[{"diffs":[[0,"_name, presence:"],[1," true,\n                            uniqueness:"],[0," true\n  \n  has_m"]],"start1":611,"start2":611,"length1":32,"length2":78}]],"length":765,"saved":false}
